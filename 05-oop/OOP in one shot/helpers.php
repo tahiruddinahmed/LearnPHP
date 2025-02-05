@@ -14,5 +14,5 @@ function redirect($url) {
 function inspect($value) {
   echo "<pre>";
   var_dump($value);
-  echo "</pre>
+  echo "</pre>";
 }
