@@ -116,3 +116,16 @@ Abstract classes cannot be instantiated directly. This is beneficial because it 
 If you simply provide a default implementation in a non-abstract parent class, subclasses might inherit behavior that doesn't fit their context, and you might forget to override it. An abstract method forces you to think about how each subclass should behave, reducing the risk of unexpected behavior from inherited default methods.
 
 In summary, while polymorphism allows for method overriding, abstract classes enforce that overriding and ensure that all subclasses adhere to a specific interface. This leads to more robust, maintainable, and predictable code.
+
+
+## Interfaces 
+What is an interface? 
+An interface is a contact that defines a set of methods that any class implementing the interface must provide. 
+
+ - Interfaces do not contain any implementation details. They only declare the method signatures. 
+ - Unlike abstract classes, interfaces cannot have concrete methods.
+ - A class can implement multiple interfaces, which is useful for defining common behavior across classes that don't share a common ancestor. 
+
+Why Use Interfaces? 
+ 1. Enforce Consistency: Interfaces ensure that all classes implementing them provide the specified method. This creates a consistant API across different classes. 
+ 2. Flexible Design: Since PHP supports implementing multiple interfaces, you can compose behaviors from different sources without being limited by single inheritance. 
