@@ -129,3 +129,4 @@ An interface is a contact that defines a set of methods that any class implement
 Why Use Interfaces? 
  1. Enforce Consistency: Interfaces ensure that all classes implementing them provide the specified method. This creates a consistant API across different classes. 
  2. Flexible Design: Since PHP supports implementing multiple interfaces, you can compose behaviors from different sources without being limited by single inheritance. 
+ 
